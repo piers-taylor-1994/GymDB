@@ -1,0 +1,6 @@
+﻿CREATE TABLE [Users].[Users]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Username] VARCHAR(50) NOT NULL, 
+    [Password] VARCHAR(MAX) NOT NULL
+)
