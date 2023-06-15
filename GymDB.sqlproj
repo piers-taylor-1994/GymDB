@@ -60,13 +60,23 @@
     <Folder Include="Users\Tables" />
     <Folder Include="Security" />
     <Folder Include="Scripts" />
+    <Folder Include="Workouts" />
+    <Folder Include="Workouts\Tables" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Users\Tables\Users.sql" />
     <Build Include="Security\Users.sql" />
     <None Include="Scripts\DefaultUsers.sql" />
+    <Build Include="Security\Workouts.sql" />
+    <Build Include="Workouts\Tables\MuscleGroups.sql" />
+    <Build Include="Workouts\Tables\Exercises.sql" />
+    <Build Include="Workouts\Tables\Routine.sql" />
+    <Build Include="Workouts\Tables\Sets.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeploy.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="GymDB.refactorlog" />
   </ItemGroup>
 </Project>
