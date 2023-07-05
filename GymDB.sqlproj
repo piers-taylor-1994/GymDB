@@ -72,6 +72,7 @@
     <Build Include="Workouts\Tables\Exercises.sql" />
     <Build Include="Workouts\Tables\Routine.sql" />
     <Build Include="Workouts\Tables\Sets.sql" />
+    <Build Include="Workouts\Tables\ExerciseMuscles.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeploy.sql" />
