@@ -5,5 +5,5 @@
     [Password] VARCHAR(MAX) NOT NULL,
     [FirstName] VARCHAR(50) NOT NULL,
     [LastName] VARCHAR(50) NOT NULL, 
-    [PatchRead] BIT NOT NULL DEFAULT 0
+    [Patch] FLOAT NOT NULL DEFAULT 1.00
 )
