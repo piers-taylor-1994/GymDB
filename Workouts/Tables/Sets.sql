@@ -3,7 +3,7 @@
 	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
     [RoutineId] UNIQUEIDENTIFIER NOT NULL, 
     [ExerciseId] UNIQUEIDENTIFIER NOT NULL, 
-    [Weight] VARCHAR(50) NULL, 
+    [Weight] FLOAT NULL, 
     [Sets] INT NULL, 
     [Reps] INT NULL,
     [Order] INT NULL
