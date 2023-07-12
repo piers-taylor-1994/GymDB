@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [Workouts].[ExerciseMuscles]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
+	[Id] INT NOT NULL IDENTITY(0,1) PRIMARY KEY, 
     [ExerciseId] UNIQUEIDENTIFIER NOT NULL, 
     [MuscleId] INT NOT NULL
 
