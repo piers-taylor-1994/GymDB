@@ -14,4 +14,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="MuscleGroup" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="6b745041-a1cc-454f-9f4e-41a7c9e5f837" ChangeDateTime="12/20/2023 13:53:46">
+    <Property Name="ElementName" Value="[dbo].[SetsTimedArray].[Secs]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SetsTimedArray]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Seconds" />
+  </Operation>
 </Operations>

@@ -73,6 +73,11 @@
     <Build Include="Workouts\Tables\ExerciseMuscles.sql" />
     <Build Include="Workouts\Tables\RoutineTemplate.sql" />
     <Build Include="Workouts\Tables\RoutineTemplateSets.sql" />
+    <Build Include="Workouts\Tables\ExerciseArray.sql" />
+    <Build Include="Workouts\Tables\SetsArray.sql" />
+    <Build Include="Workouts\Tables\SetsTimedArray.sql" />
+  </ItemGroup>
+  <ItemGroup>
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="GymDB.refactorlog" />
