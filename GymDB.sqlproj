@@ -75,7 +75,10 @@
     <Build Include="Workouts\Tables\RoutineTemplateSets.sql" />
     <Build Include="Workouts\Tables\ExerciseArray.sql" />
     <Build Include="Workouts\Tables\SetsArray.sql" />
-    <Build Include="Workouts\Tables\SetsTimedArray.sql" />
+    <Build Include="Workouts\Tables\Token.sql" />
+    <Build Include="Workouts\Tables\GhostRoutine.sql" />
+    <Build Include="Workouts\Tables\GhostSets.sql" />
+    <Build Include="Workouts\Tables\GhostSetsArray.sql" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

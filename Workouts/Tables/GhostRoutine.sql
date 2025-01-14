@@ -1,0 +1,8 @@
+﻿CREATE TABLE [Workouts].[GhostRoutine]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [UserId] UNIQUEIDENTIFIER NOT NULL, 
+    [Date] DATETIME2 NOT NULL,
+
+    CONSTRAINT [FK_GhostRoutineUserId_ToUser_Id] FOREIGN KEY ([UserId]) REFERENCES [Users].[Users](Id)
+)

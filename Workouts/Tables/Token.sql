@@ -1,0 +1,5 @@
+﻿CREATE TABLE [Workouts].[Token]
+(
+	[Id] INT PRIMARY KEY NOT NULL, 
+    [Token] VARCHAR(MAX) NOT NULL
+)
