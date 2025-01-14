@@ -79,6 +79,7 @@
     <Build Include="Workouts\Tables\GhostRoutine.sql" />
     <Build Include="Workouts\Tables\GhostSets.sql" />
     <Build Include="Workouts\Tables\GhostSetsArray.sql" />
+    <Build Include="Workouts\Tables\Swimming.sql" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
