@@ -5,7 +5,7 @@
     [Date] DATETIME2 NOT NULL,
     [Lengths] INT NOT NULL,
     [TimeSwimming] INT NOT NULL,
-    [Review] BIT NOT NULL,
+    [Review] INT NOT NULL DEFAULT 0,
     [Explanation] VARCHAR(MAX),
 
     CONSTRAINT [FK_UserId_ToUser_Id] FOREIGN KEY ([UserId]) REFERENCES [Users].[Users](Id)
