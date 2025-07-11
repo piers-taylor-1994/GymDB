@@ -1,5 +1,5 @@
 # GymDB
-## Key points
+## Highlights
 - SQL database
 ## Visual Studio Setup
 - This project was created for ease-of-use regarding the creation of the database structure for the gym app.
